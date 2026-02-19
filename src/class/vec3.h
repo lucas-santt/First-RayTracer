@@ -51,10 +51,10 @@ class vec3 {
         }
 };
 
-// point3 vira outro nome para vec3, para ajudar na legibilidade
+// point3 is an alias for vec3, for legibility
 using point3 = vec3;
 
-// Funções utilitárias de vec3 
+// Utility functions for vec3
 
 inline std::ostream& operator<<(std::ostream& out, const vec3&v ) {
     return out << "( " << v.x() << ", " << v.y() << ", " << v.z() << " )";    
